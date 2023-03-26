@@ -1,0 +1,99 @@
+body {
+    font-family: sans-serif;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #FFF;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding-top: 50px;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.node {
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 8px 3px;
+    position: relative;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background-color: rgba(37, 117, 252, 0.75);
+    font-size: 16px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.node[data-has-children="true"] {
+    background-color: rgba(106, 17, 203, 0.75);
+}
+
+.node:hover {
+    background-color: rgba(37, 252, 155, 0.85);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.tree {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    pointer-events: none;
+    white-space: nowrap;
+    transition: all 0.3s ease-in-out;
+    margin-left: 50px;
+}
+
+.tree .node {
+    font-size: 14px;
+    width: fit-content;
+}
+
+.tree .tree {
+    display: flex;
+    flex-direction: row;
+}
+
+.tree .tree .node {
+    font-size: 12px;
+}
+
+.expanded>.tree {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.tree.hidden {
+    display: none;
+}
+
+.active-node {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.node-details {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(37, 117, 252, 0.9);
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.node-details.hidden {
+    transform: translateY(100%);
+}
+
