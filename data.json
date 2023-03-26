@@ -1,377 +1,377 @@
 {
-    "baslik": "Yapay Zeka",
-    "aciklama": "Yapay Zeka",
-    "alt_dallar": [
+    "name": "Yapay Zeka",
+    "description": "Yapay Zeka",
+    "children": [
         {
-            "baslik": "Makine Öğrenimi",
-            "aciklama": "Makine öğrenimi, bilgisayarların deneyimlerinden öğrenerek performanslarını artırmasını sağlayan bir yapay zeka dalıdır.",
-            "alt_dallar": [
+            "name": "Makine Öğrenimi",
+            "description": "Makine öğrenimi, bilgisayarların deneyimlerinden öğrenerek performanslarını artırmasını sağlayan bir yapay zeka dalıdır.",
+            "children": [
                 {
-                    "baslik": "Gözetimli Öğrenme",
-                    "aciklama": "Gözetimli öğrenme, eğitim verileri içeren etiketli örneklerle çalışan bir makine öğrenimi yöntemidir.",
-                    "alt_dallar": [
+                    "name": "Gözetimli Öğrenme",
+                    "description": "Gözetimli öğrenme, eğitim verileri içeren etiketli örneklerle çalışan bir makine öğrenimi yöntemidir.",
+                    "children": [
                         {
-                            "baslik": "Sınıflandırma",
-                            "aciklama": "Sınıflandırma, gözetimli öğrenmenin bir alt dalı olup, girdileri önceden belirlenmiş kategorilere ayırmayı amaçlar.",
-                            "alt_dallar": [
+                            "name": "Sınıflandırma",
+                            "description": "Sınıflandırma, gözetimli öğrenmenin bir alt dalı olup, girdileri önceden belirlenmiş kategorilere ayırmayı amaçlar.",
+                            "children": [
                                 {
-                                    "baslik": "İkili Sınıflandırma",
-                                    "aciklama": "İki sınıf arasındaki ayrımı yapmayı amaçlayan sınıflandırma türüdür. Örneğin bir görüntüde bir nesnenin var olup olmadığını sınıflandırmak için kullanılabilir."
+                                    "name": "İkili Sınıflandırma",
+                                    "description": "İki sınıf arasındaki ayrımı yapmayı amaçlayan sınıflandırma türüdür. Örneğin bir görüntüde bir nesnenin var olup olmadığını sınıflandırmak için kullanılabilir."
                                 },
                                 {
-                                    "baslik": "Çoklu Sınıf Sınıflandırma",
-                                    "aciklama": "İki sınıf arasında değil de birden fazla sınıf arasında ayrım yapmayı amaçlayan sınıflandırma türüdür. Örneğin bir görüntüde farklı nesnelerin türlerini sınıflandırmak için kullanılabilir."
+                                    "name": "Çoklu Sınıf Sınıflandırma",
+                                    "description": "İki sınıf arasında değil de birden fazla sınıf arasında ayrım yapmayı amaçlayan sınıflandırma türüdür. Örneğin bir görüntüde farklı nesnelerin türlerini sınıflandırmak için kullanılabilir."
                                 },
                                 {
-                                    "baslik": "Hierarchical Sınıflandırma",
-                                    "aciklama": "Sınıfları bir hiyerarşiye göre düzenleyen ve alt sınıflara ayıran bir sınıflandırma türüdür. Bu yöntem, sınıfların arasındaki ilişkileri göz önünde bulundurarak daha etkili bir sınıflandırma yapılmasını sağlayabilir."
+                                    "name": "Hierarchical Sınıflandırma",
+                                    "description": "Sınıfları bir hiyerarşiye göre düzenleyen ve alt sınıflara ayıran bir sınıflandırma türüdür. Bu yöntem, sınıfların arasındaki ilişkileri göz önünde bulundurarak daha etkili bir sınıflandırma yapılmasını sağlayabilir."
                                 },
                                 {
-                                    "baslik": "Örnek Tabanlı Sınıflandırma",
-                                    "aciklama": "Sınıflandırma işlemini, veri kümesindeki örneklerin benzerlik ölçütleri ile gerçekleştirir. Örneğin, bir resim verildiğinde benzer özelliklere sahip diğer resimleri sınıflandırabilir."
+                                    "name": "Örnek Tabanlı Sınıflandırma",
+                                    "description": "Sınıflandırma işlemini, veri kümesindeki örneklerin benzerlik ölçütleri ile gerçekleştirir. Örneğin, bir resim verildiğinde benzer özelliklere sahip diğer resimleri sınıflandırabilir."
                                 },
                                 {
-                                    "baslik": "Olasılık Temelli Sınıflandırma",
-                                    "aciklama": "Sınıflandırma sonucunu bir olasılık değeri olarak veren bir sınıflandırma türüdür. Örneğin, bir e-postanın spam veya spam olmadığı olasılığını hesaplamak için kullanılabilir."
+                                    "name": "Olasılık Temelli Sınıflandırma",
+                                    "description": "Sınıflandırma sonucunu bir olasılık değeri olarak veren bir sınıflandırma türüdür. Örneğin, bir e-postanın spam veya spam olmadığı olasılığını hesaplamak için kullanılabilir."
                                 }
                             ]
                         },
                         {
-                            "baslik": "Regresyon",
-                            "aciklama": "Regresyon, gözetimli öğrenmenin bir alt dalı olup, girdiler ve çıktılar arasındaki sürekli ilişkiyi modellemeye çalışır.",
-                            "alt_dallar": [
+                            "name": "Regresyon",
+                            "description": "Regresyon, gözetimli öğrenmenin bir alt dalı olup, girdiler ve çıktılar arasındaki sürekli ilişkiyi modellemeye çalışır.",
+                            "children": [
                                 {
-                                    "baslik": "Doğrusal Regresyon",
-                                    "aciklama": "Girdi ve çıktı arasındaki doğrusal ilişkiyi modellemeye çalışan bir regresyon türüdür."
+                                    "name": "Doğrusal Regresyon",
+                                    "description": "Girdi ve çıktı arasındaki doğrusal ilişkiyi modellemeye çalışan bir regresyon türüdür."
                                 },
                                 {
-                                    "baslik": "Lojistik Regresyon",
-                                    "aciklama": "Sınıflandırma problemlerinde kullanılan bir regresyon türüdür. Girdi ve çıktı arasındaki ilişkiyi sigmoid fonksiyonu ile modellemeye çalışır."
+                                    "name": "Lojistik Regresyon",
+                                    "description": "Sınıflandırma problemlerinde kullanılan bir regresyon türüdür. Girdi ve çıktı arasındaki ilişkiyi sigmoid fonksiyonu ile modellemeye çalışır."
                                 },
                                 {
-                                    "baslik": "Polinom Regresyon",
-                                    "aciklama": "Doğrusal olmayan ilişkileri modellemek için kullanılan bir regresyon türüdür. Girdi ve çıktı arasındaki ilişkiyi polinom fonksiyonu ile modellemeye çalışır."
+                                    "name": "Polinom Regresyon",
+                                    "description": "Doğrusal olmayan ilişkileri modellemek için kullanılan bir regresyon türüdür. Girdi ve çıktı arasındaki ilişkiyi polinom fonksiyonu ile modellemeye çalışır."
                                 },
                                 {
-                                    "baslik": "Karar Ağaçları Tabanlı Regresyon",
-                                    "aciklama": "Karar ağaçları yöntemini kullanarak regresyon yapmayı amaçlayan bir regresyon türüdür."
+                                    "name": "Karar Ağaçları Tabanlı Regresyon",
+                                    "description": "Karar ağaçları yöntemini kullanarak regresyon yapmayı amaçlayan bir regresyon türüdür."
                                 },
                                 {
-                                    "baslik": "Yapay Sinir Ağları Tabanlı Regresyon",
-                                    "aciklama": "Yapay sinir ağları yöntemini kullanarak regresyon yapmayı amaçlayan bir regresyon türüdür. Özellikle, çok katmanlı yapay sinir ağları kullanılarak karmaşık ilişkiler modellemeye çalışılır."
+                                    "name": "Yapay Sinir Ağları Tabanlı Regresyon",
+                                    "description": "Yapay sinir ağları yöntemini kullanarak regresyon yapmayı amaçlayan bir regresyon türüdür. Özellikle, çok katmanlı yapay sinir ağları kullanılarak karmaşık ilişkiler modellemeye çalışılır."
                                 }
                             ]
                         }
                     ]
                 },
                 {
-                    "baslik": "Gözetimsiz Öğrenme",
-                    "aciklama": "Gözetimsiz öğrenme, etiketli veri olmaksızın verilerin yapısını ve özelliklerini anlamaya çalışan bir makine öğrenimi yöntemidir.",
-                    "alt_dallar": [
+                    "name": "Gözetimsiz Öğrenme",
+                    "description": "Gözetimsiz öğrenme, etiketli veri olmaksızın verilerin yapısını ve özelliklerini anlamaya çalışan bir makine öğrenimi yöntemidir.",
+                    "children": [
                         {
-                            "baslik": "Kümeleme",
-                            "aciklama": "Kümeleme, gözetimsiz öğrenmenin bir alt dalı olup, benzer özelliklere sahip veri noktalarını gruplamayı amaçlar.",
-                            "alt_dallar": [
+                            "name": "Kümeleme",
+                            "description": "Kümeleme, gözetimsiz öğrenmenin bir alt dalı olup, benzer özelliklere sahip veri noktalarını gruplamayı amaçlar.",
+                            "children": [
                                 {
-                                    "baslik": "Hiyerarşik Kümeleme",
-                                    "aciklama": "Verileri belirli bir ağaç yapısı kullanarak kümelere ayıran bir kümeleme yöntemidir. Kümeleme işlemi alt kümelere kadar devam eder."
+                                    "name": "Hiyerarşik Kümeleme",
+                                    "description": "Verileri belirli bir ağaç yapısı kullanarak kümelere ayıran bir kümeleme yöntemidir. Kümeleme işlemi alt kümelere kadar devam eder."
                                 },
                                 {
-                                    "baslik": "K-Ortalamalar Kümeleme",
-                                    "aciklama": "Belirli sayıda küme oluşturarak verileri kümelere ayıran bir kümeleme yöntemidir. Kümeleme işlemi, verilerin her birinin bir küme merkezine en yakın olan küme ile eşleştirilmesi ile gerçekleştirilir."
+                                    "name": "K-Ortalamalar Kümeleme",
+                                    "description": "Belirli sayıda küme oluşturarak verileri kümelere ayıran bir kümeleme yöntemidir. Kümeleme işlemi, verilerin her birinin bir küme merkezine en yakın olan küme ile eşleştirilmesi ile gerçekleştirilir."
                                 },
                                 {
-                                    "baslik": "Yoğunluk Tabanlı Kümeleme",
-                                    "aciklama": "Noktaların yoğunluğunu hesaplayarak kümeleme yapan bir yöntemdir. Yoğun noktalardan başlayarak kümeler oluşturulur."
+                                    "name": "Yoğunluk Tabanlı Kümeleme",
+                                    "description": "Noktaların yoğunluğunu hesaplayarak kümeleme yapan bir yöntemdir. Yoğun noktalardan başlayarak kümeler oluşturulur."
                                 },
                                 {
-                                    "baslik": "Spektral Kümeleme",
-                                    "aciklama": "Noktaların benzerlik matrisi hesaplanarak kümeleme yapan bir yöntemdir. Benzerlik matrisi, noktalar arasındaki benzerlik ölçütüne göre hesaplanır."
+                                    "name": "Spektral Kümeleme",
+                                    "description": "Noktaların benzerlik matrisi hesaplanarak kümeleme yapan bir yöntemdir. Benzerlik matrisi, noktalar arasındaki benzerlik ölçütüne göre hesaplanır."
                                 },
                                 {
-                                    "baslik": "Dağınık Kümeleme",
-                                    "aciklama": "Her kümedeki verilerin belirli bir merkezde toplandığı bir kümeleme yöntemidir. Her veri noktası kendi kümesine ait merkez ile karşılaştırılır ve en yakın merkeze atanır."
+                                    "name": "Dağınık Kümeleme",
+                                    "description": "Her kümedeki verilerin belirli bir merkezde toplandığı bir kümeleme yöntemidir. Her veri noktası kendi kümesine ait merkez ile karşılaştırılır ve en yakın merkeze atanır."
                                 }
                             ]
                         },
                         {
-                            "baslik": "Boyut Azaltma",
-                            "aciklama": "Boyut azaltma, gözetimsiz öğrenmenin bir alt dalı olup, veri kümesinin boyutunu düşürerek daha düşük boyutlu bir temsili elde etmeyi amaçlar.",
-                            "alt_dallar": [
+                            "name": "Boyut Azaltma",
+                            "description": "Boyut azaltma, gözetimsiz öğrenmenin bir alt dalı olup, veri kümesinin boyutunu düşürerek daha düşük boyutlu bir temsili elde etmeyi amaçlar.",
+                            "children": [
                                 {
-                                    "baslik": "Özellik Çıkarımı",
-                                    "aciklama": "Veri kümesindeki önemli özellikleri seçme ve veri kümesini daha düşük boyutlu bir temsille ifade etme yöntemidir."
+                                    "name": "Özellik Çıkarımı",
+                                    "description": "Veri kümesindeki önemli özellikleri seçme ve veri kümesini daha düşük boyutlu bir temsille ifade etme yöntemidir."
                                 },
                                 {
-                                    "baslik": "Faktör Analizi",
-                                    "aciklama": "Veri kümesindeki varyansın büyük bir kısmını açıklamak için daha az sayıda değişken oluşturmayı amaçlar."
+                                    "name": "Faktör Analizi",
+                                    "description": "Veri kümesindeki varyansın büyük bir kısmını açıklamak için daha az sayıda değişken oluşturmayı amaçlar."
                                 },
                                 {
-                                    "baslik": "Bağımlı Olmayan Bileşen Analizi",
-                                    "aciklama": "Veri kümesindeki özellikleri yeniden düzenleyerek verinin farklı açılardan daha iyi anlaşılabilmesini sağlayan bir boyut azaltma yöntemidir."
+                                    "name": "Bağımlı Olmayan Bileşen Analizi",
+                                    "description": "Veri kümesindeki özellikleri yeniden düzenleyerek verinin farklı açılardan daha iyi anlaşılabilmesini sağlayan bir boyut azaltma yöntemidir."
                                 },
                                 {
-                                    "baslik": "Öznitelik Seçimi",
-                                    "aciklama": "Veri kümesindeki özelliklerin bir alt kümesinin seçilmesiyle boyut azaltma yapılmasını sağlayan bir yöntemdir."
+                                    "name": "Öznitelik Seçimi",
+                                    "description": "Veri kümesindeki özelliklerin bir alt kümesinin seçilmesiyle boyut azaltma yapılmasını sağlayan bir yöntemdir."
                                 },
                                 {
-                                    "baslik": "T-SNE",
-                                    "aciklama": "Yüksek boyutlu verilerin düşük boyutlu temsilini oluşturmak için kullanılan bir kümeleme yöntemidir."
+                                    "name": "T-SNE",
+                                    "description": "Yüksek boyutlu verilerin düşük boyutlu temsilini oluşturmak için kullanılan bir kümeleme yöntemidir."
                                 }
                             ]
                         }
                     ]
                 },
                 {
-                    "baslik": "Yarı Gözetimli Öğrenme",
-                    "aciklama": "Yarı gözetimli öğrenme, hem etiketli hem de etiketsiz verileri kullanarak model performansını artıran bir makine öğrenimi yöntemidir."
+                    "name": "Yarı Gözetimli Öğrenme",
+                    "description": "Yarı gözetimli öğrenme, hem etiketli hem de etiketsiz verileri kullanarak model performansını artıran bir makine öğrenimi yöntemidir."
                 },
                 {
-                    "baslik": "Takviyeli Öğrenme",
-                    "aciklama": "Takviyeli öğrenme, öğrenme sürecini deneme yanılma yoluyla gerçekleştiren ve ödül mekanizmasıyla geribildirim alan bir makine öğrenimi yöntemidir.",
-                    "alt_dallar": [
+                    "name": "Takviyeli Öğrenme",
+                    "description": "Takviyeli öğrenme, öğrenme sürecini deneme yanılma yoluyla gerçekleştiren ve ödül mekanizmasıyla geribildirim alan bir makine öğrenimi yöntemidir.",
+                    "children": [
                         {
-                            "baslik": "Temel Takviyeli Öğrenme",
-                            "aciklama": "Temel takviyeli öğrenme, öğrenme sürecini belirgin bir ödül fonksiyonu kullanarak deneme yanılma yoluyla gerçekleştiren ve daha basit algoritmalar içeren bir takviyeli öğrenme yöntemidir."
+                            "name": "Temel Takviyeli Öğrenme",
+                            "description": "Temel takviyeli öğrenme, öğrenme sürecini belirgin bir ödül fonksiyonu kullanarak deneme yanılma yoluyla gerçekleştiren ve daha basit algoritmalar içeren bir takviyeli öğrenme yöntemidir."
                         },
                         {
-                            "baslik": "Derin Takviyeli Öğrenme",
-                            "aciklama": "Derin takviyeli öğrenme, derin sinir ağları kullanarak karmaşık öğrenme süreçlerini gerçekleştiren gelişmiş bir takviyeli öğrenme yöntemidir. Bu yöntem, yüksek boyutlu durum ve eylem alanlarında bile etkili sonuçlar verir.",
-                            "alt_dallar": [
+                            "name": "Derin Takviyeli Öğrenme",
+                            "description": "Derin takviyeli öğrenme, derin sinir ağları kullanarak karmaşık öğrenme süreçlerini gerçekleştiren gelişmiş bir takviyeli öğrenme yöntemidir. Bu yöntem, yüksek boyutlu durum ve eylem alanlarında bile etkili sonuçlar verir.",
+                            "children": [
                                 {
-                                    "baslik": "Q-Learning",
-                                    "aciklama": "Q-learning, bir ajanın bir ortamda belirli bir durumda karar vermesi gereken bir dizi adımdan oluşan bir takviyeli öğrenme yöntemidir. Ajan, durumda hangi eylemin en yüksek toplam ödülü verdiğini tahmin etmek için bir Q-tablosu kullanır.",
-                                    "alt_dallar": [
+                                    "name": "Q-Learning",
+                                    "description": "Q-learning, bir ajanın bir ortamda belirli bir durumda karar vermesi gereken bir dizi adımdan oluşan bir takviyeli öğrenme yöntemidir. Ajan, durumda hangi eylemin en yüksek toplam ödülü verdiğini tahmin etmek için bir Q-tablosu kullanır.",
+                                    "children": [
                                         {
-                                            "baslik": "Asenkron Derin Takviyeli Öğrenme",
-                                            "aciklama": "Asenkron derin takviyeli öğrenme, birden fazla işlemcinin bir derin sinir ağı üzerinde eş zamanlı olarak çalışarak modelin daha hızlı bir şekilde öğrenmesini sağlayan bir derin takviyeli öğrenme yöntemidir."
+                                            "name": "Asenkron Derin Takviyeli Öğrenme",
+                                            "description": "Asenkron derin takviyeli öğrenme, birden fazla işlemcinin bir derin sinir ağı üzerinde eş zamanlı olarak çalışarak modelin daha hızlı bir şekilde öğrenmesini sağlayan bir derin takviyeli öğrenme yöntemidir."
                                         },
                                         {
-                                            "baslik": "Double Q-Learning",
-                                            "aciklama": "Double Q-learning, Q-learning'e benzer bir takviyeli öğrenme yöntemidir, ancak ajanın hedef Q-değerlerini tahmin etmek için iki ayrı Q-tablosu kullanır. Bu yöntem, Q-learning'in aşırı tahmin sorunu ile başa çıkmak için tasarlanmıştır."
+                                            "name": "Double Q-Learning",
+                                            "description": "Double Q-learning, Q-learning'e benzer bir takviyeli öğrenme yöntemidir, ancak ajanın hedef Q-değerlerini tahmin etmek için iki ayrı Q-tablosu kullanır. Bu yöntem, Q-learning'in aşırı tahmin sorunu ile başa çıkmak için tasarlanmıştır."
                                         },
                                         {
-                                            "baslik": "Deep Deterministic Policy Gradient",
-                                            "aciklama": "Derin belirleyici politika gradyanı, bir ajanın sürekli eylem uzayında çalışmasına olanak tanıyan bir takviyeli öğrenme yöntemidir. Bu yöntem, ajanın bir doğrusal olmayan politika fonksiyonunu öğrenmesine ve daha sonra bu politika fonksiyonunu optimize etmesine olanak tanır."
+                                            "name": "Deep Deterministic Policy Gradient",
+                                            "description": "Derin belirleyici politika gradyanı, bir ajanın sürekli eylem uzayında çalışmasına olanak tanıyan bir takviyeli öğrenme yöntemidir. Bu yöntem, ajanın bir doğrusal olmayan politika fonksiyonunu öğrenmesine ve daha sonra bu politika fonksiyonunu optimize etmesine olanak tanır."
                                         }
                                     ]
                                 },
                                 {
-                                    "baslik": "Siyah Kutu Yöntemleri",
-                                    "aciklama": "Siyah kutu yöntemleri, bir modelin iç işleyişini anlamaya çalışmadan doğrudan bir aksiyon seçmek için takviyeli öğrenme yöntemleridir. Bu yöntemler, birçok durumda oldukça etkilidir, ancak modelin özeti ve kararların nedenleri hakkında bilgi vermezler.",
-                                    "alt_dallar": [
+                                    "name": "Siyah Kutu Yöntemleri",
+                                    "description": "Siyah kutu yöntemleri, bir modelin iç işleyişini anlamaya çalışmadan doğrudan bir aksiyon seçmek için takviyeli öğrenme yöntemleridir. Bu yöntemler, birçok durumda oldukça etkilidir, ancak modelin özeti ve kararların nedenleri hakkında bilgi vermezler.",
+                                    "children": [
                                         {
-                                            "baslik": "Karar Ağacı",
-                                            "aciklama": "Karar ağacı, veri kümesindeki özelliklere dayalı karar kuralları oluşturarak sınıflandırma ve regresyon problemleri için bir makine öğrenimi yöntemidir."
+                                            "name": "Karar Ağacı",
+                                            "description": "Karar ağacı, veri kümesindeki özelliklere dayalı karar kuralları oluşturarak sınıflandırma ve regresyon problemleri için bir makine öğrenimi yöntemidir."
                                         },
                                         {
-                                            "baslik": "Random Forest",
-                                            "aciklama": "Random forest, birçok karar ağacının bir araya getirilmesiyle oluşturulan bir makine öğrenimi yöntemidir. Bu yöntem, sınıflandırma ve regresyon problemleri için kullanılabilir ve aşırı uyuma eğilimli modelleri engellemede etkilidir."
+                                            "name": "Random Forest",
+                                            "description": "Random forest, birçok karar ağacının bir araya getirilmesiyle oluşturulan bir makine öğrenimi yöntemidir. Bu yöntem, sınıflandırma ve regresyon problemleri için kullanılabilir ve aşırı uyuma eğilimli modelleri engellemede etkilidir."
                                         },
                                         {
-                                            "baslik": "Gradient Boosting",
-                                            "aciklama": "Gradient boosting, zayıf öğrenicileri bir araya getirerek güçlü bir öğrenici oluşturan bir makine öğrenimi yöntemidir. Bu yöntem, sınıflandırma ve regresyon problemleri için kullanılabilir ve yüksek doğruluk oranları elde edebilir."
+                                            "name": "Gradient Boosting",
+                                            "description": "Gradient boosting, zayıf öğrenicileri bir araya getirerek güçlü bir öğrenici oluşturan bir makine öğrenimi yöntemidir. Bu yöntem, sınıflandırma ve regresyon problemleri için kullanılabilir ve yüksek doğruluk oranları elde edebilir."
                                         }
                                     ]
                                 },
                                 {
-                                    "baslik": "Güdümlü Dikkat",
-                                    "aciklama": "Güdümlü dikkat, ajanın ortama odaklanmasına ve sadece önemli gördüğü kısımlara odaklanmasına izin veren bir derin takviyeli öğrenme yöntemidir. Bu yöntem, modelin daha az veriyle daha hızlı öğrenmesine yardımcı olur ve genellikle doğruluğu artırır."
+                                    "name": "Güdümlü Dikkat",
+                                    "description": "Güdümlü dikkat, ajanın ortama odaklanmasına ve sadece önemli gördüğü kısımlara odaklanmasına izin veren bir derin takviyeli öğrenme yöntemidir. Bu yöntem, modelin daha az veriyle daha hızlı öğrenmesine yardımcı olur ve genellikle doğruluğu artırır."
                                 },
                                 {
-                                    "baslik": "Policy Gradient",
-                                    "aciklama": "Policy gradient, bir ajanın bir durumda bir eylem seçmek için bir olasılık dağılımı öğrenmek için takviyeli öğrenme yöntemidir. Bu yöntem, birçok karmaşık görevde iyi performans gösterir ve genellikle siyah kutu yöntemlerinden daha etkilidir."
+                                    "name": "Policy Gradient",
+                                    "description": "Policy gradient, bir ajanın bir durumda bir eylem seçmek için bir olasılık dağılımı öğrenmek için takviyeli öğrenme yöntemidir. Bu yöntem, birçok karmaşık görevde iyi performans gösterir ve genellikle siyah kutu yöntemlerinden daha etkilidir."
                                 }
                             ]
                         }
                     ]
                 },
                 {
-                    "baslik": "Aktarım Öğrenme",
-                    "aciklama": "Aktarım öğrenme, önceden eğitilmiş bir modelin bilgisini, yeni bir görevi çözmek için kullanma yöntemidir. Bu sayede, öğrenme süreci daha hızlı ve daha az veriyle gerçekleştirilebilir.",
-                    "alt_dallar": [
+                    "name": "Aktarım Öğrenme",
+                    "description": "Aktarım öğrenme, önceden eğitilmiş bir modelin bilgisini, yeni bir görevi çözmek için kullanma yöntemidir. Bu sayede, öğrenme süreci daha hızlı ve daha az veriyle gerçekleştirilebilir.",
+                    "children": [
                         {
-                            "baslik": "Önceden Eğitilmiş Modeller",
-                            "aciklama": "Önceden eğitilmiş modeller, büyük veri kümeleri üzerinde eğitilmiş ve genellikle yüksek başarı oranlarına sahip olan derin öğrenme modelleridir. Bu modeller, başlangıç noktası olarak kullanılabilir ve hedef görevler için ince ayar yapılabilir."
+                            "name": "Önceden Eğitilmiş Modeller",
+                            "description": "Önceden eğitilmiş modeller, büyük veri kümeleri üzerinde eğitilmiş ve genellikle yüksek başarı oranlarına sahip olan derin öğrenme modelleridir. Bu modeller, başlangıç noktası olarak kullanılabilir ve hedef görevler için ince ayar yapılabilir."
                         },
                         {
-                            "baslik": "İnce Ayar",
-                            "aciklama": "İnce ayar, bir önceden eğitilmiş modelin ağırlıklarını, özel bir görev için daha iyi performans göstermek üzere hafifçe düzenlemek amacıyla gerçekleştirilen süreçtir. Bu sayede, öğrenme süreci daha hızlı ve daha az veriyle gerçekleştirilebilir."
+                            "name": "İnce Ayar",
+                            "description": "İnce ayar, bir önceden eğitilmiş modelin ağırlıklarını, özel bir görev için daha iyi performans göstermek üzere hafifçe düzenlemek amacıyla gerçekleştirilen süreçtir. Bu sayede, öğrenme süreci daha hızlı ve daha az veriyle gerçekleştirilebilir."
                         }
                     ]
                 }
             ]
         },
         {
-            "baslik": "Derin Öğrenme",
-            "aciklama": "Derin öğrenme, bir makine öğrenimi alt dalı olup, yapay sinir ağları gibi karmaşık algoritmalar kullanarak veriler üzerinde yüksek seviyede öğrenme yapar.",
-            "alt_dallar": [
+            "name": "Derin Öğrenme",
+            "description": "Derin öğrenme, bir makine öğrenimi alt dalı olup, yapay sinir ağları gibi karmaşık algoritmalar kullanarak veriler üzerinde yüksek seviyede öğrenme yapar.",
+            "children": [
                 {
-                    "baslik": "Yapay Sinir Ağları",
-                    "aciklama": "Yapay sinir ağları, derin öğrenmenin en temel öğesi olup, insan beynindeki sinir ağlarını taklit ederek veriler üzerinde öğrenme yaparlar.",
-                    "alt_dallar": [
+                    "name": "Yapay Sinir Ağları",
+                    "description": "Yapay sinir ağları, derin öğrenmenin en temel öğesi olup, insan beynindeki sinir ağlarını taklit ederek veriler üzerinde öğrenme yaparlar.",
+                    "children": [
                         {
-                            "baslik": "İleri Beslemeli Sinir Ağları",
-                            "aciklama": "İleri beslemeli sinir ağları, verileri bir yönde ilerleyen bir ağ yapısında işleyen sinir ağlarıdır ve özellikle sınıflandırma problemlerinde sıkça kullanılırlar.",
-                            "alt_dallar": [
+                            "name": "İleri Beslemeli Sinir Ağları",
+                            "description": "İleri beslemeli sinir ağları, verileri bir yönde ilerleyen bir ağ yapısında işleyen sinir ağlarıdır ve özellikle sınıflandırma problemlerinde sıkça kullanılırlar.",
+                            "children": [
                                 {
-                                    "baslik": "Tek Katmanlı Algılayıcılar",
-                                    "aciklama": "Tek katmanlı algılayıcılar, yalnızca bir gizli katmana sahip olan ileri beslemeli sinir ağlarıdır ve özellikle basit sınıflandırma problemlerinde kullanılırlar."
+                                    "name": "Tek Katmanlı Algılayıcılar",
+                                    "description": "Tek katmanlı algılayıcılar, yalnızca bir gizli katmana sahip olan ileri beslemeli sinir ağlarıdır ve özellikle basit sınıflandırma problemlerinde kullanılırlar."
                                 },
                                 {
-                                    "baslik": "Çok Katmanlı Algılayıcılar",
-                                    "aciklama": "Çok katmanlı algılayıcılar, birden fazla gizli katmana sahip olan ileri beslemeli sinir ağlarıdır ve daha karmaşık sınıflandırma problemlerinde kullanılırlar."
+                                    "name": "Çok Katmanlı Algılayıcılar",
+                                    "description": "Çok katmanlı algılayıcılar, birden fazla gizli katmana sahip olan ileri beslemeli sinir ağlarıdır ve daha karmaşık sınıflandırma problemlerinde kullanılırlar."
                                 },
                                 {
-                                    "baslik": "Rekurrent Sinir Ağları",
-                                    "aciklama": "Rekurrent sinir ağları, geri beslemeli bağlantıları olan sinir ağlarıdır ve zaman serileri gibi zamana bağlı verilerin modellemesinde kullanılırlar."
+                                    "name": "Rekurrent Sinir Ağları",
+                                    "description": "Rekurrent sinir ağları, geri beslemeli bağlantıları olan sinir ağlarıdır ve zaman serileri gibi zamana bağlı verilerin modellemesinde kullanılırlar."
                                 }
                             ]
                         },
                         {
-                            "baslik": "Radyal Tabanlı İşlev Ağları",
-                            "aciklama": "Radyal tabanlı işlev ağları, bir merkezi gözlem noktasından verileri işleyen ve sınıflandırma, regresyon ve kümeleme problemlerinde kullanılan bir tür yapay sinir ağıdır."
+                            "name": "Radyal Tabanlı İşlev Ağları",
+                            "description": "Radyal tabanlı işlev ağları, bir merkezi gözlem noktasından verileri işleyen ve sınıflandırma, regresyon ve kümeleme problemlerinde kullanılan bir tür yapay sinir ağıdır."
                         },
                         {
-                            "baslik": "Kohonen Öz Organize Haritaları",
-                            "aciklama": "Kohonen öz organize haritaları, verileri bir veya daha fazla boyutta özetleyen ve genellikle görüntü işleme ve sınıflandırma problemlerinde kullanılan bir tür yapay sinir ağıdır."
+                            "name": "Kohonen Öz Organize Haritaları",
+                            "description": "Kohonen öz organize haritaları, verileri bir veya daha fazla boyutta özetleyen ve genellikle görüntü işleme ve sınıflandırma problemlerinde kullanılan bir tür yapay sinir ağıdır."
                         },
                         {
-                            "baslik": "Hopfield Ağları",
-                            "aciklama": "Hopfield ağları, asenkron olarak çalışan sinir hücrelerinden oluşan bir tür yapay sinir ağıdır ve özellikle otomatik veri düzeltme problemlerinde kullanılırlar."
+                            "name": "Hopfield Ağları",
+                            "description": "Hopfield ağları, asenkron olarak çalışan sinir hücrelerinden oluşan bir tür yapay sinir ağıdır ve özellikle otomatik veri düzeltme problemlerinde kullanılırlar."
                         },
                         {
-                            "baslik": "Boltzmann Makineleri",
-                            "aciklama": "Boltzmann makineleri, birbirleriyle etkileşim halindeki bir grup sinir hücresinden oluşan ve özellikle olasılıksal modeller oluşturmak için kullanılan bir tür yapay sinir ağıdır."
+                            "name": "Boltzmann Makineleri",
+                            "description": "Boltzmann makineleri, birbirleriyle etkileşim halindeki bir grup sinir hücresinden oluşan ve özellikle olasılıksal modeller oluşturmak için kullanılan bir tür yapay sinir ağıdır."
                         }
                     ]
                 },
                 {
-                    "baslik": "Evrişimli Sinir Ağları",
-                    "aciklama": "Evrişimli sinir ağları, özellikle görüntü ve video işleme problemlerinde sıkça kullanılan yapay sinir ağlarıdır ve genellikle konvolüsyon katmanlarından oluşurlar."
+                    "name": "Evrişimli Sinir Ağları",
+                    "description": "Evrişimli sinir ağları, özellikle görüntü ve video işleme problemlerinde sıkça kullanılan yapay sinir ağlarıdır ve genellikle konvolüsyon katmanlarından oluşurlar."
                 },
                 {
-                    "baslik": "Tekrarlayan Sinir Ağları",
-                    "aciklama": "Tekrarlayan sinir ağları, zamana bağlı verileri işleyen bir tür yapay sinir ağıdır. Özellikle doğal dil işleme gibi alanlarda kullanılır."
+                    "name": "Tekrarlayan Sinir Ağları",
+                    "description": "Tekrarlayan sinir ağları, zamana bağlı verileri işleyen bir tür yapay sinir ağıdır. Özellikle doğal dil işleme gibi alanlarda kullanılır."
                 },
                 {
-                    "baslik": "Otomatik Kodlayıcılar",
-                    "aciklama": "Otomatik kodlayıcılar, veri setlerindeki önemli özellikleri otomatik olarak keşfetmek ve kodlamak için kullanılan sinir ağı modelleridir."
+                    "name": "Otomatik Kodlayıcılar",
+                    "description": "Otomatik kodlayıcılar, veri setlerindeki önemli özellikleri otomatik olarak keşfetmek ve kodlamak için kullanılan sinir ağı modelleridir."
                 },
                 {
-                    "baslik": "Çoklu Katmanlı Algılayıcılar",
-                    "aciklama": "Çoklu katmanlı algılayıcılar (MLP), en az üç katmandan oluşan bir yapay sinir ağıdır. Bu ağ, girdi katmanı, gizli katmanlar ve çıktı katmanı olmak üzere en az üç katmandan oluşur. MLP'ler, genellikle sınıflandırma ve regresyon gibi görevlerde kullanılır ve derin öğrenmenin temel yapı taşlarından biridir."
+                    "name": "Çoklu Katmanlı Algılayıcılar",
+                    "description": "Çoklu katmanlı algılayıcılar (MLP), en az üç katmandan oluşan bir yapay sinir ağıdır. Bu ağ, girdi katmanı, gizli katmanlar ve çıktı katmanı olmak üzere en az üç katmandan oluşur. MLP'ler, genellikle sınıflandırma ve regresyon gibi görevlerde kullanılır ve derin öğrenmenin temel yapı taşlarından biridir."
                 }
             ]
         },
         {
-            "baslik": "Doğal Dil İşleme",
-            "alt_dallar": [
+            "name": "Doğal Dil İşleme",
+            "children": [
                 {
-                    "baslik": "Sentiment Analizi"
+                    "name": "Sentiment Analizi"
                 },
                 {
-                    "baslik": "Dil Modelleri",
-                    "alt_dallar": [
+                    "name": "Dil Modelleri",
+                    "children": [
                         {
-                            "baslik": "N-gram Modeller"
+                            "name": "N-gram Modeller"
                         },
                         {
-                            "baslik": "Statik Dil Modelleri"
+                            "name": "Statik Dil Modelleri"
                         },
                         {
-                            "baslik": "Sinirsel Dil Modelleri"
+                            "name": "Sinirsel Dil Modelleri"
                         },
                         {
-                            "baslik": "Dikkat Mekanizmalı Modeller"
+                            "name": "Dikkat Mekanizmalı Modeller"
                         },
                         {
-                            "baslik": "Transformer Modeller",
-                            "alt_dallar": [
+                            "name": "Transformer Modeller",
+                            "children": [
                                 {
-                                    "baslik": "Orjinal Transformer"
+                                    "name": "Orjinal Transformer"
                                 },
                                 {
-                                    "baslik": "BERT"
+                                    "name": "BERT"
                                 },
                                 {
-                                    "baslik": "GPT Serisi",
-                                    "alt_dallar": [
+                                    "name": "GPT Serisi",
+                                    "children": [
                                         {
-                                            "baslik": "GPT"
+                                            "name": "GPT"
                                         },
                                         {
-                                            "baslik": "GPT-2"
+                                            "name": "GPT-2"
                                         },
                                         {
-                                            "baslik": "GPT-3"
+                                            "name": "GPT-3"
                                         },
                                         {
-                                            "baslik": "GPT-4"
+                                            "name": "GPT-4"
                                         }
                                     ]
                                 },
                                 {
-                                    "baslik": "RoBERTa"
+                                    "name": "RoBERTa"
                                 },
                                 {
-                                    "baslik": "T5"
+                                    "name": "T5"
                                 },
                                 {
-                                    "baslik": "DistilBERT"
+                                    "name": "DistilBERT"
                                 }
                             ]
                         }
                     ]
                 },
                 {
-                    "baslik": "Metin Sınıflandırma"
+                    "name": "Metin Sınıflandırma"
                 },
                 {
-                    "baslik": "Makine Çevirisi"
+                    "name": "Makine Çevirisi"
                 },
                 {
-                    "baslik": "Soru Cevaplama Sistemleri"
+                    "name": "Soru Cevaplama Sistemleri"
                 }
             ]
         },
         {
-            "baslik": "Bilgisayar Görüşü",
-            "alt_dallar": [
+            "name": "Bilgisayar Görüşü",
+            "children": [
                 {
-                    "baslik": "Görüntü Sınıflandırma"
+                    "name": "Görüntü Sınıflandırma"
                 },
                 {
-                    "baslik": "Nesne Tanıma ve Tespiti"
+                    "name": "Nesne Tanıma ve Tespiti"
                 },
                 {
-                    "baslik": "Yüz Tanıma"
+                    "name": "Yüz Tanıma"
                 },
                 {
-                    "baslik": "Görüntü Segmentasyonu"
+                    "name": "Görüntü Segmentasyonu"
                 },
                 {
-                    "baslik": "Görüntü İşleme"
+                    "name": "Görüntü İşleme"
                 }
             ]
         },
         {
-            "baslik": "Robotik",
-            "alt_dallar": [
+            "name": "Robotik",
+            "children": [
                 {
-                    "baslik": "Otonom Robotlar"
+                    "name": "Otonom Robotlar"
                 },
                 {
-                    "baslik": "İnsansı Robotlar"
+                    "name": "İnsansı Robotlar"
                 },
                 {
-                    "baslik": "Endüstriyel Robotlar"
+                    "name": "Endüstriyel Robotlar"
                 },
                 {
-                    "baslik": "Kablosuz Sensör Ağları"
+                    "name": "Kablosuz Sensör Ağları"
                 },
                 {
-                    "baslik": "İçgüdüsel Robotlar"
+                    "name": "İçgüdüsel Robotlar"
                 }
             ]
         }

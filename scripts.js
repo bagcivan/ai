@@ -1,93 +1,65 @@
-async function veriYukle() {
+async function fetchData() {
     const response = await fetch("data.json");
     const data = await response.json();
     return data;
 }
 
-function createNode(text, children, details) {
+function createNode(title) {
     const node = document.createElement("div");
     node.classList.add("node");
-
-    const label = document.createElement("span");
-    label.textContent = text;
-    node.appendChild(label);
-
-    function stopPropagation(event) {
-        event.stopPropagation();
-    }
-
-    if (details) {
-        node.addEventListener("click", (event) => {
-            stopPropagation(event);
-            const nodeDetails = document.getElementById("node-details");
-            nodeDetails.textContent = details;
-            nodeDetails.classList.remove("hidden");
-        });
-    }
-
-    if (children) {
-        node.setAttribute('data-has-children', 'true');
-        node.addEventListener("click", (event) => {
-            stopPropagation(event);
-
-            const parent = node.parentNode;
-            parent.childNodes.forEach((sibling) => {
-                if (sibling !== node && sibling.classList.contains("expanded")) {
-                    sibling.classList.remove("expanded");
-                    sibling.querySelector(".tree").classList.add("hidden");
-                    sibling.classList.remove("active-node");
-                    
-                }
-            });
-
-            if (!node.classList.contains("expanded")) {
-                node.classList.add("active-node");
-                children.classList.remove("hidden");
-                node.classList.add("expanded");
-
-            }
-        });
-
-        node.addEventListener("dblclick", (event) => {
-            stopPropagation(event);
-            if (node.classList.contains("expanded")) {
-                node.classList.remove("active-node");
-                children.classList.add("hidden");
-                node.classList.remove("expanded");
-            }
-        });
-
-        node.appendChild(children);
-    }
-
+    node.textContent = title;
     return node;
 }
 
-function buildTree(data) {
-    if (!data.alt_dallar) return null;
-
-    const tree = document.createElement("div");
-    tree.classList.add("tree", "hidden");
-    data.alt_dallar.forEach((child) => {
-        const subTree = buildTree(child);
-        const node = createNode(child.baslik, subTree, child.aciklama);
-        tree.appendChild(node);
-    });
-
-    return tree;
+function createLevel() {
+    const level = document.createElement("div");
+    level.classList.add("level");
+    return level;
 }
 
+function removeDeeperLevels(container, level) {
+    while (container.children.length > level + 1) {
+        container.removeChild(container.lastChild);
+    }
+}
 
-(async function main() {
-    const data = await veriYukle();
-    const tree = buildTree(data);
-    const root = createNode(data.baslik, tree, data.aciklama);
+function buildTree(data, container, level = 0) {
+    if (!data || !data.length) {
+        return;
+    }
 
-    root.addEventListener("click", () => {
-        const nodeDetails = document.getElementById("node-details");
-        nodeDetails.textContent = data.aciklama;
-        nodeDetails.classList.remove("hidden");
+    const currentLevel = container.children[level] || createLevel();
+    container.appendChild(currentLevel);
+
+    currentLevel.innerHTML = "";
+    data.forEach(item => {
+        const node = createNode(item.name);
+        currentLevel.appendChild(node);
+
+        node.addEventListener("click", () => {
+            if (item.children) {
+                buildTree(item.children, container, level + 1);
+            } else {
+                removeDeeperLevels(container, level);
+            }
+            showNodeDescription(item.description);
+        });
     });
 
-    document.getElementById("root").appendChild(root);
-})();
+    removeDeeperLevels(container, level);
+}
+
+function showNodeDescription(description) {
+    const nodeDescription = document.getElementById("node-description");
+    nodeDescription.style.opacity = 0;
+    setTimeout(() => {
+        nodeDescription.textContent = description || "";
+        nodeDescription.style.opacity = 1;
+    }, 100);
+}
+
+const container = document.getElementById("tree-container");
+
+fetchData().then(data => {
+    buildTree([data], container);
+});
